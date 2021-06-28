@@ -9,18 +9,22 @@ Node Cowsay example
 brew install gh
 ```
 
--
+- Clone repository to local and add node packages
+```bash
+gh repo clone josmanolo/node-cowsay
+cd node-cowsay
+yarn init
+yarn
+yarn add cowsay
+yarn add express
+```
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```bash
+node index.js
 ```
-
+- Go to http://localhost:3001/
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
