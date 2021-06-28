@@ -25,6 +25,13 @@ yarn add express
 node index.js
 ```
 - Go to http://localhost:3001/
+
+## Docker Usage
+```bash
+docker build -t node-cowsay .
+docker run -dp 3001:3001 node-cowsay
+```
+- Go to http://localhost:3001/
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
