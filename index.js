@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3001, () => {
-    console.log("EL SERVIDOR PUERTO 3001");
+    console.log("SERVER PORT 3001");
 })
 
